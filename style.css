@@ -5,10 +5,12 @@ body {
   padding: 0;
   background-color: #193511;
   color: #ebebeb;
+  margin-bottom: 70px;
 }
 
 a {
   text-decoration: none;
+  color: #fff;
 }
 
 h1, h1 a {
@@ -16,6 +18,10 @@ h1, h1 a {
   display: block;
   padding-left: 2%;
   color: #fff;
+}
+
+.roundedBoarder{
+  border-radius: 10px;
 }
 
 -------
@@ -181,7 +187,17 @@ nav {
   gap: 5px;
 }
 
-.textSection, .imageSection {
+.textSection{
+  flex: 1;
+  padding: 20px;
+  height: auto;
+  
+}
+
+.imageSection{
+  display: flex;
+  justify-content: center;
+  align-items: center;
   flex: 1;
   padding: 20px;
   height: auto;
@@ -190,12 +206,13 @@ nav {
 .imageSection img {
   object-fit: contain;
   object-position: center;
-  height: 100%;
+  max-width: 100%;
 }
 
 @media screen and (max-width: 768px) {
   .welcomePage {
     flex-direction: column;
+    width: 80%;
   }
 }
 
@@ -205,25 +222,62 @@ nav {
   justify-content: space-between;
   width: 70%;
   margin: 0 auto;
-  margin-bottom: 2rem;
+  font-size: 1.5rem;
+  line-height: 1.6;
 }
 
-.projectCard .projectTextSection {
+.projectTextSection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   flex: 1;
-  margin-right: 1rem;
+  padding: 20px;
 }
 
-.projectCard .projectImageSection {
+.projectImageSection {
   flex: 1;
-  margin-left: 1rem;
+  padding: 20px;
+  align-items: center;
+  justify-content: center;
+  
 }
 
-.projectCard .projectImageSection img {
+.projectImageSection img {
   object-fit: contain;
   object-position: center;
-  width: 100%; /* Adjust this value to make the image smaller or larger */
-  height: auto;
-  margin: 0 auto;
+  max-width: 100%;
+}
+
+.projectButton {
+  position: relative;
+  display: inline-block;
+}
+
+.projectButton .overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: rgba(0,0,0,0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.projectButton:hover .overlay {
+  opacity: 1;
+}
+
+.overlay p {
+  color: white;
+  font-size: 20px;
+  text-align: center;
 }
 
 @media screen and (max-width: 768px) {
@@ -231,8 +285,42 @@ nav {
     flex-direction: column;
   }
 
-  .projectCard .projectTextSection,
-  .projectCard .projectImageSection {
+  .projectTextSection,
+  .projectImageSection {
     margin: 0;
   }
+}
+
+/*footer format*/
+
+footer {
+  width: 100%;
+  background-color: #333; /* Change to match your navbar color */
+  color: #fff; /* Change to match your navbar text color */
+  padding: 20px 0;
+  position: fixed;
+  bottom: 0;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px; /* Change to match your site's max width */
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.footer-links {
+  display: flex;
+  gap: 20px;
+}
+
+.footer-links a {
+  color: #fff; /* Change to match your navbar link color */
+  text-decoration: none;
+}
+
+.footer-links a:hover {
+  text-decoration: underline;
 }
