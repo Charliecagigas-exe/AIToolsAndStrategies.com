@@ -434,3 +434,22 @@ footer {
 .privacyPolicy p {
   margin-bottom: 10px;
 }
+
+/*terms of service styles*/
+.termsService {
+  padding: 20px;
+  margin: 30px;
+  border-radius: 5px;
+}
+
+.termsService h2 {
+  margin-bottom: 20px;
+}
+
+.termsService h3 {
+  margin-top: 30px;
+}
+
+.termsService p {
+  margin-bottom: 10px;
+}
