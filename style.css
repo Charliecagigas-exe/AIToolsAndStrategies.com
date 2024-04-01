@@ -453,3 +453,15 @@ footer {
 .termsService p {
   margin-bottom: 10px;
 }
+
+/*projectpage style*/
+.projectPage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 70%;
+  margin: 0 auto;
+  font-size: 1.5rem;
+  line-height: 1.6;
+}
