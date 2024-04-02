@@ -1,18 +1,25 @@
-<header class="header">
-    <div class="header-content">
-        <div class="site-title">AI Tools and Strategies</div>
-        <nav class="nav">
-            <button class="hamburger-menu">
-                <span class="bar"></span>
-                <span class="bar"></span>
-                <span class="bar"></span>
-            </button>
-            <ul class="nav-links">
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Services</a></li>
-                <li><a href="#">Contact</a></li>
-            </ul>
-        </nav>
-    </div>
-</header>
+<section class="projectIntermediate">
+        <div class="intermediateText">
+          <h2>Intermediate Section</h2>
+          <img
+            src="resoures/images/AIToolsandstrategies header image.jpg"
+            alt="Intermediate Image"
+            style="width: 100%; height: auto"
+          />
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Suscipit necessitatibus veniam vero quaerat magnam esse eaque dolore omnis aliquid consequatur, provident, incidunt ab praesentium culpa ea laudantium. Adipisci, error at.</p>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Suscipit necessitatibus veniam vero quaerat magnam esse eaque dolore omnis aliquid consequatur, provident, incidunt ab praesentium culpa ea laudantium. Adipisci, error at.</p>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Suscipit necessitatibus veniam vero quaerat magnam esse eaque dolore omnis aliquid consequatur, provident, incidunt ab praesentium culpa ea laudantium. Adipisci, error at.</p>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Suscipit necessitatibus veniam vero quaerat magnam esse eaque dolore omnis aliquid consequatur, provident, incidunt ab praesentium culpa ea laudantium. Adipisci, error at.</p>
+        </div>
+        <hr>
+        <div class="intermediateVideo">
+          <h3>Tutorial Video</h3>
+          <iframe
+            src="resoures/images/video template.mp4"
+            title="Intermediate Tutorial Video"
+          ></iframe>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium, temporibus vel hic eum officiis deleniti dolorem sapiente quae aut esse quod consectetur accusamus adipisci. Exercitationem iure voluptates perspiciatis possimus tempore.</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium, temporibus vel hic eum officiis deleniti dolorem sapiente quae aut esse quod consectetur accusamus adipisci. Exercitationem iure voluptates perspiciatis possimus tempore.</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium, temporibus vel hic eum officiis deleniti dolorem sapiente quae aut esse quod consectetur accusamus adipisci. Exercitationem iure voluptates perspiciatis possimus tempore.</p>
+        </div>
+      </section>

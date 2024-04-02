@@ -71,6 +71,7 @@ nav {
   border: none;
   padding: 10px 20px;
   border-radius: 5px;
+  width: 15rem;
   transition: background-color 0.3s ease; /* Transition effect */
 }
 
@@ -462,61 +463,43 @@ footer {
   line-height: 1.6;
 }
 
-/* CSS */
-
-/* CSS */
-
-.projectBeginner,
-.projectIntermediate {
+/*project page styles*/
+.beginnerText .content,
+.beginnerVideo .content {
   display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
   justify-content: space-between;
 }
 
-.beginnerText,
-.intermediateText {
-  order: 1;
+.beginnerText .text,
+.beginnerVideo .text {
+  flex: 2;
+  padding-right: 20px;
+  padding-left: 20px;
+  width: 100%;
+}
+
+.beginnerText .image {
   flex: 1;
+  padding-left: 20px;
+  width: 85%;
 }
 
-.beginnerText img,
-.intermediateText img {
-  float: left;
-  margin-right: 20px;
-}
-
-.beginnerVideo,
-.intermediateVideo {
-  order: 2;
+.beginnerVideo .video {
   flex: 1;
+  padding-left: 20px;
 }
 
-.beginnerVideo iframe,
-.intermediateVideo iframe {
-  float: right;
-  margin-left: 20px;
-}
-
-@media (max-width: 600px) {
-  .projectBeginner,
-  .projectIntermediate {
+@media (max-width: 1000px) {
+  .beginnerText .content,
+  .beginnerVideo .content {
     flex-direction: column;
   }
 
-  .beginnerText,
-  .intermediateText,
-  .beginnerVideo,
-  .intermediateVideo {
-    order: 0;
-  }
-
-  .beginnerText img,
-  .intermediateText img,
-  .beginnerVideo iframe,
-  .intermediateVideo iframe {
-    float: none;
-    margin-left: 0;
+  .content .text {
     margin-right: 0;
+    margin-bottom: 20px;
+    width: 100%;
+    padding-right: 20px;
+    padding-left: 20px;
   }
 }
