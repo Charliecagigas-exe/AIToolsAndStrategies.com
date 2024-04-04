@@ -12,3 +12,16 @@ modified styles
 ---
 4/1 - 0.0.0.3
 - created initial project template
+---
+4/3 - 0.0.0.4
+- Finalized page layout
+---
+4/4 - 0.0.0.5
+- finalized navbar
+- applied colorscheme
+- finalized footer
+---
+4/4 - 0.0.1.1
+- applied finalized template to all project pages
+- applied css to all project pages
+
