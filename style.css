@@ -3,9 +3,14 @@ body {
   font-family: Poppins, sans-serif;
   margin: 0;
   padding: 0;
-  background-color: #193511;
+  background-color: #106758;
   color: #ebebeb;
   margin-bottom: 70px;
+}
+
+p {
+  font-size: 1.5rem;
+  line-height: 1.6;
 }
 
 a {
@@ -30,8 +35,8 @@ button a {
 }
 
 hr {
-  border: 1px solid #505050;
-  width: 90%;
+  border: 1px solid #f5edf0;
+  width: 95%;
 }
 
 -------
@@ -43,8 +48,8 @@ header {
 }
 nav {
   align-items: center;
-  background-color: #333;
-  padding: 1rem;
+  background-color: #f5edf0;
+  padding: 1px 0;
 }
 
 .navMenu {
@@ -65,9 +70,11 @@ nav {
 }
 
 .navMenu a {
-  color: #fff;
+  color: #000000;
+  font-family: Poppins, sans-serif;
+  font-size: 1.6rem;
   text-decoration: none;
-  background-color: #4caf4f60;
+  background-color: #81c0b600;
   border: none;
   padding: 10px 10px;
   border-radius: 5px;
@@ -76,7 +83,7 @@ nav {
 }
 
 .navMenu a:hover {
-  background-color: #45a049; /* Darker green on hover */
+  background-color: #81c0b5; /* Darker green on hover */
 }
 
 .navMenuItem {
@@ -86,10 +93,17 @@ nav {
   justify-content: space-between;
 }
 
+.navMenuItemDorpdown{
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  color: #fff;
+  text-decoration: none;
+}
+
 /* Dropdown menu styles */
 .dropdown {
-  position: relative;
-  display: inline-block;
+  
 }
 
 .dropdown-menu {
@@ -228,8 +242,8 @@ nav {
 }
 
 .welcomeButton {
-  background-color: #4caf50; /* Green background */
-  color: white; /* White text */
+  background-color: #f5edf0; /* Green background */
+  color: rgb(0, 0, 0); /* White text */
   border: none; /* No border */
   padding: 15px 32px; /* Padding */
   text-align: center; /* Centered text */
@@ -242,8 +256,12 @@ nav {
   transition: background-color 0.3s ease; /* Transition effect */
 }
 
+.welcomeButton a{
+  color: #000000;
+}
+
 .welcomeButton:hover {
-  background-color: #45a049; /* Darker green on hover */
+  background-color: #81c0b5; /* Darker green on hover */
 }
 
 .buttonGrid {
@@ -291,9 +309,9 @@ nav {
 }
 
 .projectCard button {
-  background-color: #4caf50; /* Green background */
+  background-color: #f5edf0; /* Green background */
   border: none; /* No border */
-  color: white; /* White text */
+  color: black;
   padding: 15px 32px; /* Padding */
   text-align: center; /* Centered text */
   text-decoration: none; /* No underline */
@@ -306,7 +324,7 @@ nav {
 }
 
 .projectCard button:hover {
-  background-color: #285f2a; /* Darker green on hover */
+  background-color: #81c0b5; /* Darker green on hover */
 }
 
 .projectTextSection {
