@@ -178,7 +178,7 @@ nav {
     background-color: #81c0b5; /* Darker green on hover */
   }
 
-  .dropdown-menu {
+  .dropdownMenu {
     display: none;
     position: static;
     left: 0;
@@ -198,22 +198,22 @@ nav {
     border-bottom: none;
   }
 
-  .dropdown:hover .dropdown-menu {
+  .dropdown:hover .dropdownMenu {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(3, 1fr);
     gap: 20px;
   }
 
-  .dropdown-menu.show {
+  .dropdownMenu.show {
     transform: translateX(0);
   }
 
-  .dropdown-menu li {
+  .dropdownMenu li {
     margin: 1rem 0;
   }
 
-  .dropdown-menu a {
+  .dropdownMenu a {
     padding: 1rem;
     display: flex;
     justify-content: center;
