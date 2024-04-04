@@ -179,7 +179,6 @@ nav {
   }
 
   .dropdownMenu {
-    display: none;
     position: static;
     left: 0;
     width: auto;
@@ -188,10 +187,6 @@ nav {
     background-color: #333;
     transition: transform 0.3s ease-in-out;
     transform: translateX(0);
-  }
-
-  .dropdown {
-    border-bottom: 5px solid transparent;
   }
 
   .dropdown:hover {
