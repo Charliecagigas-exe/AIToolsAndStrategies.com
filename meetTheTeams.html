@@ -5,6 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>Meet the Teams</title>
+    <script>
+      document.querySelectorAll('.team-card').forEach(card => {
+          card.addEventListener('click', () => {
+              card.querySelector('.team-info').style.opacity = 1;
+          });
+      });
+  </script>
 </head>
 <body>
     <header>
@@ -43,6 +50,62 @@
     </header>
     <main>
       <h1>Meet the Teams</h1>
+      <div class="container">
+        <div class="teamCard">
+          <img src="resoures/aiLogos/blackbox_logo_edited.png" alt="Blackbox Logo">
+          <div class="teamInfo">
+            <p>Blackbox</p>
+          </div>
+        </div>
+        <div class="teamCard">
+          <img src="resoures/aiLogos/ChatGPT_logo_edited.png" alt="Chatgpt Logo">
+          <div class="teamInfo">
+            <p>Chat GPT</p>
+          </div>
+        </div>
+        <div class="teamCard">
+          <img src="resoures/aiLogos/claude_logo_edited.png" alt="Claude">
+          <div class="teamInfo">
+            <p>Claude</p>
+          </div>
+        </div>
+        <div class="teamCard">
+          <img src="resoures/aiLogos/mindmeister_logo_edited.png" alt="MindMeister">
+          <div class="teamInfo">
+            <p>Mindmeister</p>
+          </div>
+        </div>
+        <div class="teamCard">
+          <img src="resoures/aiLogos/Notion_logo_edited.png" alt="Notion">
+          <div class="teamInfo">
+            <p>Notion</p>
+          </div>
+        </div>
+        <div class="teamCard">
+          <img src="resoures/aiLogos/Scispace_logo_edited.png" alt="Scispace">
+          <div class="teamInfo">
+            <p>Scispace</p>
+          </div>
+        </div>
+        <div class="teamCard">
+          <img src="resoures/aiLogos/tinywow_logo_edited.png" alt="Tinywow">
+          <div class="teamInfo">
+            <p>Tiny-Wow</p>
+          </div>
+        </div>
+        <div class="teamCard">
+          <img src="resoures/aiLogos/writesonic_logo_edited.png" alt="Writesonic">
+          <div class="teamInfo">
+            <p>Writesonic</p>
+          </div>
+        </div>
+        <div class="teamCard">
+          <img src="resoures/aiLogos/Kapwing_logo_edited.png" alt="Kapwing">
+          <div class="teamInfo">
+            <p>Kapwing</p>
+          </div>
+        </div>
+      </div>
     </main>
     <footer>
       <div class="footer-content">
