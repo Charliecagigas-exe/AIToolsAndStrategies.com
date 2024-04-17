@@ -24,4 +24,8 @@ modified styles
 4/4 - 0.0.1.1
 - applied finalized template to all project pages
 - applied css to all project pages
+---
+4/16 - 0.0.1.2
+- interview with mike brewer about Verbelequence
+- created verbelequence page and format
 
